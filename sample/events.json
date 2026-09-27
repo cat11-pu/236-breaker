@@ -1,0 +1,14 @@
+{
+  "time_error_code": "E_TIME_BACK",
+  "param_error_code": "E_BAD_PARAM",
+  "threshold": 2,
+  "cooldown": 4,
+  "events": [
+    { "at": 1, "ok": false },
+    { "at": 2, "ok": false },
+    { "at": 3, "ok": true },
+    { "at": 6, "ok": false },
+    { "at": 7, "ok": true },
+    { "at": 8, "ok": false }
+  ]
+}
